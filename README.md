@@ -55,11 +55,7 @@ src/
 
 ## Próximos passos
 
-- [ ] Marcar tarefa como concluída
-- [ ] Editar tarefa
-- [ ] Filtrar por todas / pendentes / concluídas
-- [ ] Testes com Vitest e Testing Library
-- [ ] Migrar para TypeScript
+- Inc...
 
 ## Autor
 
