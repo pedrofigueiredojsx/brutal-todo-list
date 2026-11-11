@@ -1,6 +1,6 @@
 # 📝 Lista de Tarefas
 
-Aplicação de lista de tarefas feita com React, com persistência no navegador via `localStorage`.
+Aplicação de lista de tarefas feita com **React** e **Vite**, com persistência no navegador via `localStorage`.
 
 ## Funcionalidades
 
@@ -14,9 +14,11 @@ Aplicação de lista de tarefas feita com React, com persistência no navegador 
 ## Tecnologias
 
 - React
+- Vite
 - JavaScript (ES6+)
 - CSS
 - localStorage (Web Storage API)
+- ESLint
 
 ## Conceitos praticados
 
@@ -30,27 +32,27 @@ Aplicação de lista de tarefas feita com React, com persistência no navegador 
 
 ## Como rodar
 
+Pré-requisito: Node.js instalado.
+
 ```bash
-# clonar o repositório
-git clone <url-do-repositorio>
-
-# entrar na pasta
-cd <nome-da-pasta>
-
-# instalar dependências
+git clone https://github.com/pedrofigueiredojsx/brutal-todo-list.git
+cd brutal-todo-list
 npm install
-
-# rodar em modo desenvolvimento
 npm run dev
 ```
+
+Acesse a URL exibida no terminal (normalmente `http://localhost:5173`).
 
 ## Estrutura
 
 ```
-src/
-├── TodoApp.jsx
-├── TodoApp.css
-└── main.jsx
+├── public/            # Arquivos estáticos
+├── src/
+│   ├── TodoApp.jsx    # Componente principal
+│   ├── TodoApp.css    # Estilos
+│   └── main.jsx       # Ponto de entrada
+├── index.html
+└── vite.config.js
 ```
 
 ## Próximos passos
